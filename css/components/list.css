@@ -1,0 +1,64 @@
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  transition: all 0.7s ease;
+}
+
+.product:hover {
+  background-color: #E6E6E6;
+}
+
+.product:hover .product-upvote {
+  font-size: 40px;
+}
+
+.product:hover .product-upvote p{
+  font-size: 25px;
+}
+
+
+
+.product-description h3 {
+  margin-top: 0;
+}
+
+
+.product-description {
+  flex: 1 0 auto;
+  padding-left: 10px;
+}
+
+.product-upvote {
+  text-align: center;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.product-upvote p {
+  font-size: 16px ;
+}
+
+.product-share {
+  font-size: 20px;
+  opacity: 0.7;
+  align-self: flex-start;
+}
+
+.product-img {
+  position: relative;
+  background-image: url('http://unsplash.it/140/100');
+  height: 100px;
+  width: 140px;
+  border-radius: 5px;
+}
+
+.product-img-avatar {
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+}
+
+
+
